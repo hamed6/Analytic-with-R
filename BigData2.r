@@ -1,4 +1,4 @@
-#Hamed Ghodsinezhad (student number=39307)
+#Hamed Ghodsinezhad
 #------------------------
 #Q1
 file.choose()
