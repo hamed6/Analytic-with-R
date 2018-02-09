@@ -25,3 +25,7 @@ misconception_type :
  
  5:
  boxplot(dfFemale$time_on_task~dfFemale$gender , main="Time On Task Based on Gender" , ylab="TimeOnTask", las=1, col.main=132 , cex.axis = 0.6  , col.axis= "brown" , col=c("red", "green"))
+
+-----------------------------
+par(mfrow=c(4,2))
+for (i in 1:length(cs)){plot(sensor[as.integer(cs[i])])}
